@@ -91,6 +91,9 @@ class bdist_venv(Command):
         return [self.venv_output]
 
     def run(self):
+        # generate the metadata first
+        self.run_command('egg_info')
+
         venv_dir = self.bdist_dir
 
         virtualenv.create_environment(
