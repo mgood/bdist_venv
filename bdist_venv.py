@@ -98,7 +98,6 @@ class bdist_venv(Command):
 
         virtualenv.create_environment(
             venv_dir,
-            use_distribute=True,
             never_download=True,
         )
 
