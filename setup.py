@@ -14,7 +14,7 @@ except:
 
 setup(
     name='bdist_venv',
-    version='0.1.1',
+    version='0.1.2',
     url='http://github.com/mgood/bdist_venv',
     license='BSD',
     author='Matt Good',
